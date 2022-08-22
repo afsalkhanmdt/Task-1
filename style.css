@@ -6,6 +6,8 @@
 body{
     background-image: url(./background.jpg);
     background-size: cover;
+    height: 100vh;
+    display: grid;
 }
 
 .container{
@@ -114,7 +116,8 @@ h1{
 
 footer{
     background-color: #531234;
-    margin-top: 25px;
+    margin-top: auto;
+    margin-bottom: 0;
     display: flex;
     justify-content: space-between;
     padding: 10px;
